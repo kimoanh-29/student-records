@@ -1,0 +1,87 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+
+# Coverage directory used by tools like Jest or Mocha
+coverage/
+
+# Build directories
+dist/
+build/
+
+# Dependency directories
+bower_components/
+
+# IDE/Editor files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# macOS files
+.AppleDouble
+.LSOverride
+
+# Windows Installer files
+thumbs.db
+ehthumbs.db
+
+# Docker-related files (Docker containers, images, volumes)
+docker-compose.override.yaml
+docker-compose.yml
+*.docker
+*.log
+.docker
+.devcontainer
+
+# Ignore chaincode build artifacts
+chaincode/*
+*.tar.gz
+*.tgz
+
+# Node.js dependencies (for chaincode or client apps)
+npm-debug.log
+yarn-debug.log
+
+# Fabric peer and orderer data
+fabric-dev-servers/
+fabric-scripts/
+fabric-ca-server/
+data/
+
+# Ignore channel artifacts, logs, and config transactions
+channel-artifacts/
+crypto-config/
+configtx/
+fabric-ca-client/
+
+# Local network and Fabric state data
+test-network/*
+fabric-test-network/
+
+# Ignore generated certificates and private keys
+*.pem
+*.key
+*.crt
+
+# Ignore configuration files that contain sensitive data (like private keys)
+.fabric_ca_*
+
+# Ignore log files
+*.log
+
+# Ignore any temporary build files
+.build/
+temp/
